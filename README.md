@@ -8,7 +8,7 @@
 
 - [fontawesome 5.1](https://fontawesome.com)
 
-### 畫面
+### 預覽
 
 | index |
 |---|
