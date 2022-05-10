@@ -1,0 +1,574 @@
+<!--
+  Name: 
+    web-sample-2 網站模板 2
+
+  Authors: 
+    Pardn Ltd 帕登國際有限公司 <mail@pardn.ltd>
+    Pardn Chiu 邱敬幃 <chiuchingwei@icloud.com>
+
+  Author URI: --
+
+  Copyright: 
+    pardn.ltd 帕登國際有限公司
+
+  Licence: 
+    本授權條款允許使用者重製、散布、傳輸以及修改著作，但不得為商業目的之使用。
+    使用時必須按照著作人指定的方式表彰其姓名。
+
+  Licence URI: --
+-->
+<!DOCTYPE html>
+<html lang="zh-Hans-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模組化網站2</title>
+  <style>
+    * {
+      --module-hint: 1;
+      --max-width: 1140px;
+      --col-sys: rgb(30, 120, 50, 0.9);
+      --col-sys-light: rgb(80, 170, 100, 0.9);
+      --col-sys-hint: rgba(80, 170, 100, 0.2);
+      --col-sys-dark: rgb(0, 70, 0, 0.9);
+      --col-border: rgb(215, 215, 215);
+      --col-hint: rgb(230, 230, 230);
+      --col-bg-lightgray: rgb(245, 245, 245);
+      --default-radius: 0.25rem;
+    }
+  </style>
+  <link rel="stylesheet" href="./css/PDModule.css">
+  <script src="./js/PDModule.min.js" defer></script>
+</head>
+<body class="no-select" style="background-color: rgb(20, 30, 30);">
+  <!-- T002 -->
+  <div sn="T002" df="bg">
+    <!-- navbar -->
+    <div df="nvb" st="0" ed="80" col="000000">
+      <nav df="nvb" dir="ttb">
+        <h1>Pardn Ltd</h1>
+        <div>
+          <a class="fc" href="/sample2" mi="1">首頁</a>
+          <div mi="1" df="li">列表
+            <ul>
+              <li>
+                <a href="/sample2/gallery">相簿展示</a>
+              </li>
+              <li>
+                <a href="/sample2/blog">全寬文章</a>
+              </li>
+              <li>
+                <a href="">側欄文章</a>
+              </li>
+            </ul>
+          </div>
+          <a href="" mi="1">連結1</a>
+          <a href="" mi="1">連結2</a>
+        </div>
+        <img df="nvb" src="" alt="" ic="list-bar fff">
+      </nav>
+    </div>
+    <!-- body -->
+    <div df="bd">
+      <article>
+        <h3>模組化網站</h3>
+        <p>公司: Pardn Ltd 帕登國際有限公司<br>開發: Pardn Chiu 邱敬幃<br>聯絡: mail@pardn.ltd</p>
+        <p class="subtitle">模組化範例 (二)</p>
+        <div>
+          <a href="mailto:mail@pardn.ltd" df="btn fff col xl" mi="1" >
+            <i class="fas fa-envelope"></i> 信箱</a>
+          <a href="https://facebook.com/pardnltd" df="btn fff xl" mi="1" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+            粉絲專頁
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+  <!-- C004 -->
+  <div sn="C004">
+    <!-- body -->
+    <section>
+      <!-- child-body -->
+      <ul df="x3">
+        <!-- item -->
+        <li class="mi">
+          <article>
+            <a href="">
+              <!-- <img src="" alt="" ic="img"> -->
+              <i class="fas fa-camera"></i>
+              <h6>標題範例</h6>
+              <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            </a>
+          </article>
+        </li>
+        <!-- item -->
+        <li class="mi">
+          <article>
+            <a href="">
+              <!-- <img src="" alt="" ic="img"> -->
+              <i class="fas fa-car"></i>
+              <h6>標題範例</h6>
+              <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            </a>
+          </article>
+        </li>
+        <!-- item -->
+        <li class="mi">
+          <article>
+            <a href="">
+              <!-- <img src="" alt="" ic="img"> -->
+              <i class="fas fa-chart-bar"></i>
+              <h6>標題範例</h6>
+              <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            </a>
+          </article>
+        </li>
+        <!-- item -->
+        <li class="mi">
+          <article>
+            <a href="">
+              <!-- <img src="" alt="" ic="img"> -->
+              <i class="fas fa-chart-pie"></i>
+              <h6>標題範例</h6>
+              <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            </a>
+          </article>
+        </li>
+        <!-- item -->
+        <li class="mi">
+          <article>
+            <a href="">
+              <!-- <img src="" alt="" ic="img"> -->
+              <i class="fas fa-chess-knight"></i>
+              <h6>標題範例</h6>
+              <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            </a>
+          </article>
+        </li>
+        <!-- item -->
+        <li class="mi">
+          <article>
+            <a href="">
+              <!-- <img src="" alt="" ic="img"> -->
+              <i class="fas fa-coins"></i>
+              <h6>標題範例</h6>
+              <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            </a>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- C013 -->
+  <div sn="C013" df="bg">
+    <!-- body -->
+    <section>
+      <div>
+        <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+        <h6>標題範例</h6>
+        <!-- child-body -->
+        <div>
+          <!-- block -->
+          <div>
+            <ul>
+              <!-- item -->
+              <li>
+                <a href="">
+                  <!-- <img src="" alt="" ic="img"> -->
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <div>
+                  <h6>標題範例</h6>
+                  <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+                </div>
+              </li>
+              <!-- item -->
+              <li>
+                <a href="">
+                  <!-- <img src="" alt="" ic="img"> -->
+                  <i class="fas fa-football-ball"></i>
+                </a>
+                <div>
+                  <h6>標題範例</h6>
+                  <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+                </div>
+              </li>
+              <!-- item -->
+              <li>
+                <a href="">
+                  <!-- <img src="" alt="" ic="img"> -->
+                  <i class="fas fa-toolbox"></i>
+                </a>
+                <div>
+                  <h6>標題範例</h6>
+                  <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- block -->
+          <div>
+            <img src="" alt="" ic="bg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- C005 -->
+  <div sn="C005">
+    <!-- body -->
+    <section>
+      <h6>標題範例</h6>
+      <hr>
+      <!-- child-body -->
+      <div>
+        <!-- block -->
+        <div>
+          <!-- item -->
+          <div wh="1">
+            <img src="" alt="" ic="bg">
+          </div>
+        </div>
+        <!-- block -->
+        <div>
+          <!-- item -->
+          <div wh="1">
+            <img src="" alt="" ic="bg">
+          </div>
+        </div>
+        <!-- block -->
+        <div class="x2">
+          <!-- item -->
+          <div wh="1">
+            <img src="" alt="" ic="bg">
+          </div>
+          <!-- item -->
+          <div wh="1">
+            <img src="" alt="" ic="bg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- C014 -->
+  <div sn="C014" df="bg">
+    <!-- body -->
+    <section>
+      <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+      <h6>標題範例</h6>
+      <!-- child-body -->
+      <ul df="x2">
+        <!-- item -->
+        <li>
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <h6>標題範例</h6>
+              <em>內容範例內容範例內容範例內容範例內容範例</em>
+            </figcaption>
+          </figure>
+          <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+        </li>
+        <!-- item -->
+        <li>
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <h6>標題範例</h6>
+              <em>內容範例內容範例內容範例內容範例內容範例</em>
+            </figcaption>
+          </figure>
+          <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- C006 -->
+  <div sn="C006">
+    <!-- body -->
+    <section>
+      <h6>標題範例</h6>
+      <hr>
+      <!-- child-body -->
+      <ul df="x3">
+        <!-- item -->
+        <li df="sd" mi="1">
+          <p>
+            <em>$</em>
+            <strong>100</strong>
+            <em>次</em>
+          </p>
+          <p>標題範例</p>
+          <ul>
+            <li>內容範例 1</li>
+            <li>內容範例 2</li>
+            <li>內容範例 3</li>
+            <li>內容範例 4</li>
+            <li>內容範例 5</li>
+          </ul>
+          <div>
+            <p>描述範例</p>
+            <a href="" df="btn col xxl" mi="1">按鈕範例</a>
+          </div>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <p>
+            <em>$</em>
+            <strong>100</strong>
+            <em>次</em>
+          </p>
+          <p>標題範例</p>
+          <ul>
+            <li>內容範例 1</li>
+            <li>內容範例 2</li>
+            <li>內容範例 3</li>
+            <li>內容範例 4</li>
+            <li>內容範例 5</li>
+          </ul>
+          <div>
+            <p>描述範例</p>
+            <a href="" df="btn col xxl" mi="1">按鈕範例</a>
+          </div>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <p>
+            <em>$</em>
+            <strong>100</strong>
+            <em>次</em>
+          </p>
+          <p>標題範例</p>
+          <ul>
+            <li>內容範例 1</li>
+            <li>內容範例 2</li>
+            <li>內容範例 3</li>
+            <li>內容範例 4</li>
+            <li>內容範例 5</li>
+          </ul>
+          <div>
+            <p>描述範例</p>
+            <a href="" df="btn col xxl" mi="1">按鈕範例</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- C017 -->
+  <div sn="C017" df="bg">
+    <!-- body -->
+    <section>
+      <!-- child-body -->
+      <article>
+        <div wh="1">
+          <img src="" alt="" ic="bg fff">
+        </div>
+        <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+        <h6>標題範例</h6>
+        <em>內容範例內容範例內容範例內容範例內容範例</em>
+      </article>
+    </section>
+  </div>
+  <!-- C007 -->
+  <div sn="C007">
+    <!-- body -->
+    <section>
+      <h6>標題範例</h6>
+      <hr>
+      <!-- child-body -->
+      <ul df="x3">
+        <!-- item -->
+        <li>
+          <article>
+            <figure wh="1">
+              <img src="" alt="" ic="bg">
+            </figure>
+            <h4>
+              <a href="">標題範例</a>
+            </h4>
+            <ul>
+              <li>
+                <i class="fas fa-user"></i>
+                <p><a href="">使用者</a></p>
+              </li>
+              <li>
+                <i class="fas fa-user-friends"></i>
+                <p><a href="">群組</a></p>
+              </li>
+              <li>
+                <i class="fas fa-tag"></i>
+                <p><a href="">標籤</a></p>
+              </li>
+            </ul>
+            <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+          </article>
+        </li>
+        <!-- item -->
+        <li>
+          <article>
+            <figure wh="1">
+              <img src="" alt="" ic="bg">
+            </figure>
+            <h4>
+              <a href="">標題範例</a>
+            </h4>
+            <ul>
+              <li>
+                <i class="fas fa-user"></i>
+                <p><a href="">使用者</a></p>
+              </li>
+              <li>
+                <i class="fas fa-user-friends"></i>
+                <p><a href="">群組</a></p>
+              </li>
+              <li>
+                <i class="fas fa-tag"></i>
+                <p><a href="">標籤</a></p>
+              </li>
+            </ul>
+            <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+          </article>
+        </li>
+        <!-- item -->
+        <li>
+          <article>
+            <figure wh="1">
+              <img src="" alt="" ic="bg">
+            </figure>
+            <h4>
+              <a href="">標題範例</a>
+            </h4>
+            <ul>
+              <li>
+                <i class="fas fa-user"></i>
+                <p><a href="">使用者</a></p>
+              </li>
+              <li>
+                <i class="fas fa-user-friends"></i>
+                <p><a href="">群組</a></p>
+              </li>
+              <li>
+                <i class="fas fa-tag"></i>
+                <p><a href="">標籤</a></p>
+              </li>
+            </ul>
+            <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- B-001 -->
+  <div sn="B001" style="background-color: rgb(30, 40, 40);">
+    <!-- center -->
+    <div>
+      <!-- block -->
+      <ul df="x4">
+        <!-- child-block -->
+        <li sn="BC001">
+          <h6>標題範例</h6>
+          <div>
+            <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+            <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+          </div>
+        </li>
+        <!-- child-block -->
+        <li sn="BC005">
+          <h6>標題範例</h6>
+          <div>
+            <div>
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-home"></i></a>
+                </li>
+                <li>
+                  <a href="">關於我</a>
+                </li>
+                <li>
+                  <a href="">聯絡方式</a>
+                </li>
+                <li>
+                  <a href="">服務條款</a>
+                </li>
+                <li>
+                  <a href="">隱私政策</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul df="ic">
+                <li>
+                  <a href="">
+                    <i class="fab fa-tumblr-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-youtube-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-facebook-messenger"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-whatsapp-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-line"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <!-- child-block -->
+        <li sn="BC002">
+          <h6>標題範例</h6>
+          <div>
+            <a href="">內容範例內容範例內容範例</a>
+            <a href="">內容範例內容範例內容範例</a>
+            <a href="">內容範例內容範例內容範例</a>
+            <a href="">內容範例內容範例內容範例</a>
+            <a href="">內容範例內容範例內容範例</a>
+          </div>
+        </li>
+        <!-- child-block -->
+        <li sn="BC001">
+          <h6>標題範例</h6>
+          <div>
+            <p>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 置中 -->
+    <footer style="background-color: rgb(20, 30, 30);">
+      <div>
+        <p class="l">Copyright © 2022 - All Rights Reserved - Pardn.ltd</p>
+        <p class="r">Template by 帕登國際有限公司</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

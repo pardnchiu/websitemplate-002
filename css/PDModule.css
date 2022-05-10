@@ -2214,7 +2214,7 @@ div[sn=C007] {
   height: initial;
   background-color: #fff;
   /* module tag */
-  /* center */
+  /* body */
 }
 div[sn=C007]::after {
   content: "C007";
@@ -2227,7 +2227,7 @@ div[sn=C007]::after {
   color: #fff;
   opacity: var(--module-hint);
 }
-div[sn=C007] > div {
+div[sn=C007] > section {
   position: relative;
   display: block;
   left: 50%;
@@ -2239,144 +2239,109 @@ div[sn=C007] > div {
    * customized 
    */
   padding: 5rem 0 4rem;
-  /* body */
-}
-div[sn=C007] > div > div {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: initial;
   /* child-body */
 }
-div[sn=C007] > div > div > h6 {
+div[sn=C007] > section > h6 {
   position: relative;
-  padding: 0 16px;
+  padding: 0 1rem;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
-div[sn=C007] > div > div > hr {
+div[sn=C007] > section > hr {
   position: relative;
   margin-top: 0.5rem;
   margin-left: calc(50% - 30px);
   width: 60px;
   border: 2px solid var(--col-sys);
 }
-div[sn=C007] > div > div > div {
+div[sn=C007] > section > ul {
   position: relative;
   display: block;
   font-size: 0;
   /* 
-   * customized 
-   */
+    * customized 
+    */
   margin-top: 4rem;
+  text-align: center;
   /* x2 */
   /* x3 */
   /* x4 */
   /* item*/
 }
-div[sn=C007] > div > div > div[df=x2] {
+div[sn=C007] > section > ul[df=x2] {
   text-align: left;
 }
-div[sn=C007] > div > div > div[df=x2] > div,
-div[sn=C007] > div > div > div[df=x2] > a,
-div[sn=C007] > div > div > div[df=x2] > article {
+div[sn=C007] > section > ul[df=x2] > li {
   width: calc(50% - 2rem);
 }
-div[sn=C007] > div > div > div[df=x2] > div > div,
-div[sn=C007] > div > div > div[df=x2] > div > a,
-div[sn=C007] > div > div > div[df=x2] > a > div,
-div[sn=C007] > div > div > div[df=x2] > a > a,
-div[sn=C007] > div > div > div[df=x2] > article > div,
-div[sn=C007] > div > div > div[df=x2] > article > a {
+div[sn=C007] > section > ul[df=x2] > li > div,
+div[sn=C007] > section > ul[df=x2] > li > a {
   padding-top: 56.25%;
 }
 @media screen and (max-width: 639px) {
-  div[sn=C007] > div > div > div[df=x2] > div,
-div[sn=C007] > div > div > div[df=x2] > a,
-div[sn=C007] > div > div > div[df=x2] > article {
+  div[sn=C007] > section > ul[df=x2] > li {
     width: calc(100% - 2rem);
   }
 }
 @media screen and (max-width: 767px) {
-  div[sn=C007] > div > div > div[df=x3] {
+  div[sn=C007] > section > ul[df=x3] {
     text-align: left;
   }
 }
-div[sn=C007] > div > div > div[df=x3] > div,
-div[sn=C007] > div > div > div[df=x3] > a,
-div[sn=C007] > div > div > div[df=x3] > article {
+div[sn=C007] > section > ul[df=x3] > li {
   width: calc(33.3333333333% - 2rem);
 }
 @media screen and (max-width: 767px) {
-  div[sn=C007] > div > div > div[df=x3] > div,
-div[sn=C007] > div > div > div[df=x3] > a,
-div[sn=C007] > div > div > div[df=x3] > article {
+  div[sn=C007] > section > ul[df=x3] > li {
     width: calc(50% - 2rem);
   }
 }
 @media screen and (max-width: 479px) {
-  div[sn=C007] > div > div > div[df=x3] > div,
-div[sn=C007] > div > div > div[df=x3] > a,
-div[sn=C007] > div > div > div[df=x3] > article {
+  div[sn=C007] > section > ul[df=x3] > li {
     width: calc(100% - 2rem);
   }
-  div[sn=C007] > div > div > div[df=x3] > div > div,
-div[sn=C007] > div > div > div[df=x3] > div > a,
-div[sn=C007] > div > div > div[df=x3] > a > div,
-div[sn=C007] > div > div > div[df=x3] > a > a,
-div[sn=C007] > div > div > div[df=x3] > article > div,
-div[sn=C007] > div > div > div[df=x3] > article > a {
+  div[sn=C007] > section > ul[df=x3] > li > div,
+div[sn=C007] > section > ul[df=x3] > li > a {
     padding-top: 56.25%;
   }
 }
 @media screen and (max-width: 959px) {
-  div[sn=C007] > div > div > div[df=x4] {
+  div[sn=C007] > section > ul[df=x4] {
     text-align: left;
   }
 }
-div[sn=C007] > div > div > div[df=x4] > div,
-div[sn=C007] > div > div > div[df=x4] > a,
-div[sn=C007] > div > div > div[df=x4] > article {
+div[sn=C007] > section > ul[df=x4] > li {
   width: calc(25% - 2rem);
 }
 @media screen and (max-width: 959px) {
-  div[sn=C007] > div > div > div[df=x4] > div,
-div[sn=C007] > div > div > div[df=x4] > a,
-div[sn=C007] > div > div > div[df=x4] > article {
+  div[sn=C007] > section > ul[df=x4] > li {
     width: calc(50% - 2rem);
   }
 }
 @media screen and (max-width: 413px) {
-  div[sn=C007] > div > div > div[df=x4] > div,
-div[sn=C007] > div > div > div[df=x4] > a,
-div[sn=C007] > div > div > div[df=x4] > article {
+  div[sn=C007] > section > ul[df=x4] > li {
     width: calc(100% - 2rem);
   }
-  div[sn=C007] > div > div > div[df=x4] > div > div,
-div[sn=C007] > div > div > div[df=x4] > div > a,
-div[sn=C007] > div > div > div[df=x4] > a > div,
-div[sn=C007] > div > div > div[df=x4] > a > a,
-div[sn=C007] > div > div > div[df=x4] > article > div,
-div[sn=C007] > div > div > div[df=x4] > article > a {
+  div[sn=C007] > section > ul[df=x4] > li > div,
+div[sn=C007] > section > ul[df=x4] > li > a {
     padding-top: 56.25%;
   }
 }
-div[sn=C007] > div > div > div > div,
-div[sn=C007] > div > div > div > a,
-div[sn=C007] > div > div > div > article {
+div[sn=C007] > section > ul > li {
   position: relative;
   display: inline-block;
   vertical-align: top;
   margin: 1rem;
   height: initial;
 }
-div[sn=C007] > div > div > div > div > div,
-div[sn=C007] > div > div > div > div > a,
-div[sn=C007] > div > div > div > a > div,
-div[sn=C007] > div > div > div > a > a,
-div[sn=C007] > div > div > div > article > div,
-div[sn=C007] > div > div > div > article > a {
+div[sn=C007] > section > ul > li > article {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: initial;
+}
+div[sn=C007] > section > ul > li > article > figure {
   position: relative;
   display: block;
   padding-top: 75%;
@@ -2384,12 +2349,7 @@ div[sn=C007] > div > div > div > article > a {
   border-radius: var(--default-radius);
   overflow: hidden;
 }
-div[sn=C007] > div > div > div > div > div > img,
-div[sn=C007] > div > div > div > div > a > img,
-div[sn=C007] > div > div > div > a > div > img,
-div[sn=C007] > div > div > div > a > a > img,
-div[sn=C007] > div > div > div > article > div > img,
-div[sn=C007] > div > div > div > article > a > img {
+div[sn=C007] > section > ul > li > article > figure > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -2399,41 +2359,31 @@ div[sn=C007] > div > div > div > article > a > img {
   height: 100%;
   object-fit: cover;
 }
-div[sn=C007] > div > div > div > div > h4,
-div[sn=C007] > div > div > div > a > h4,
-div[sn=C007] > div > div > div > article > h4 {
+div[sn=C007] > section > ul > li > article > h4 {
   position: relative;
   margin-top: 1.5rem;
   width: 100%;
   font-size: 1.25rem;
+  font-weight: 500;
+  text-align: left;
 }
-div[sn=C007] > div > div > div > div > h4 > a,
-div[sn=C007] > div > div > div > a > h4 > a,
-div[sn=C007] > div > div > div > article > h4 > a {
-  position: relative;
-  color: var(--col-sys);
-}
-div[sn=C007] > div > div > div > div > ul,
-div[sn=C007] > div > div > div > a > ul,
-div[sn=C007] > div > div > div > article > ul {
+div[sn=C007] > section > ul > li > article > ul {
   position: relative;
   margin-top: 0.25rem;
   width: 100%;
   font-size: 0;
+  text-align: left;
 }
-div[sn=C007] > div > div > div > div > ul > li,
-div[sn=C007] > div > div > div > a > ul > li,
-div[sn=C007] > div > div > div > article > ul > li {
+div[sn=C007] > section > ul > li > article > ul > li {
   position: relative;
   display: inline-block;
   vertical-align: top;
   font-size: 0;
   padding-right: 0.5rem;
   height: 1rem;
+  margin-left: 0.25rem;
 }
-div[sn=C007] > div > div > div > div > ul > li::before,
-div[sn=C007] > div > div > div > a > ul > li::before,
-div[sn=C007] > div > div > div > article > ul > li::before {
+div[sn=C007] > section > ul > li > article > ul > li::before {
   content: "";
   position: relative;
   display: inline-block;
@@ -2443,9 +2393,10 @@ div[sn=C007] > div > div > div > article > ul > li::before {
   height: 100%;
   background-color: #505050;
 }
-div[sn=C007] > div > div > div > div > ul > li:nth-child(1)::before,
-div[sn=C007] > div > div > div > a > ul > li:nth-child(1)::before,
-div[sn=C007] > div > div > div > article > ul > li:nth-child(1)::before {
+div[sn=C007] > section > ul > li > article > ul > li:nth-child(1) {
+  margin-left: 0;
+}
+div[sn=C007] > section > ul > li > article > ul > li:nth-child(1)::before {
   content: "";
   position: relative;
   display: inline-block;
@@ -2453,18 +2404,23 @@ div[sn=C007] > div > div > div > article > ul > li:nth-child(1)::before {
   margin-right: 0;
   width: 0;
 }
-div[sn=C007] > div > div > div > div > ul > li > img,
-div[sn=C007] > div > div > div > a > ul > li > img,
-div[sn=C007] > div > div > div > article > ul > li > img {
+div[sn=C007] > section > ul > li > article > ul > li > i {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.25rem;
+  width: 1rem;
+  line-height: 1rem;
+  font-size: 0.875rem;
+}
+div[sn=C007] > section > ul > li > article > ul > li > img {
   position: relative;
   display: inline-block;
   vertical-align: top;
   width: 1rem;
   height: 1rem;
 }
-div[sn=C007] > div > div > div > div > ul > li > p,
-div[sn=C007] > div > div > div > a > ul > li > p,
-div[sn=C007] > div > div > div > article > ul > li > p {
+div[sn=C007] > section > ul > li > article > ul > li > p {
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -2472,22 +2428,18 @@ div[sn=C007] > div > div > div > article > ul > li > p {
   line-height: 1rem;
   height: 1rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 500;
 }
-div[sn=C007] > div > div > div > div > ul > li > p > a,
-div[sn=C007] > div > div > div > a > ul > li > p > a,
-div[sn=C007] > div > div > div > article > ul > li > p > a {
+div[sn=C007] > section > ul > li > article > ul > li > p > a {
   color: var(--col-sys);
 }
-div[sn=C007] > div > div > div > div > p,
-div[sn=C007] > div > div > div > a > p,
-div[sn=C007] > div > div > div > article > p {
+div[sn=C007] > section > ul > li > article > p {
   position: relative;
   margin-top: 1rem;
   width: 100%;
   line-height: 1.5rem;
-  font-size: 1.125rem;
-  font-weight: 600;
+  font-size: 1rem;
+  text-align: left;
 }
 
 div[sn=C008] {
@@ -4072,10 +4024,10 @@ div[sn=C017] {
   height: initial;
   background-color: #fff;
   /* module tag */
-  /* center */
+  /* body */
 }
 div[sn=C017]::after {
-  content: "C-017";
+  content: "C017";
   position: absolute;
   right: 0;
   bottom: 0;
@@ -4085,7 +4037,7 @@ div[sn=C017]::after {
   color: #fff;
   opacity: var(--module-hint);
 }
-div[sn=C017] > div {
+div[sn=C017] > section {
   position: relative;
   display: block;
   left: 50%;
@@ -4097,26 +4049,18 @@ div[sn=C017] > div {
    * customized 
    */
   padding: 5rem 0;
-  /* body */
 }
-div[sn=C017] > div > div {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: initial;
-  /* child-body */
-}
-div[sn=C017] > div > div > div {
+div[sn=C017] > section > article {
   position: relative;
   display: block;
   font-size: 0;
   /* 
-   * customized 
-   */
+    * customized 
+    */
   text-align: center;
 }
-div[sn=C017] > div > div > div > div,
-div[sn=C017] > div > div > div > a {
+div[sn=C017] > section > article > div,
+div[sn=C017] > section > article > a {
   position: relative;
   display: inline-block;
   width: 100px;
@@ -4124,8 +4068,8 @@ div[sn=C017] > div > div > div > a {
   border-radius: 50%;
   overflow: hidden;
 }
-div[sn=C017] > div > div > div > div > img,
-div[sn=C017] > div > div > div > a > img {
+div[sn=C017] > section > article > div > img,
+div[sn=C017] > section > article > a > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -4135,26 +4079,30 @@ div[sn=C017] > div > div > div > a > img {
   height: 100%;
   object-fit: cover;
 }
-div[sn=C017] > div > div > div > p {
+div[sn=C017] > section > article > p {
   position: relative;
-  margin: 1.5rem 1rem 0;
-  width: calc(100% - 2rem);
-  font-size: 1.125rem;
+  margin: 1.5rem 25% 0;
+  width: 50%;
+  line-height: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff;
 }
-div[sn=C017] > div > div > div > h6 {
+div[sn=C017] > section > article > h6 {
   position: relative;
-  margin: 2rem 1rem 0;
-  width: calc(100% - 2rem);
-  font-size: 1.5rem;
+  margin: 2rem 25% 0;
+  width: 50%;
+  font-size: 1.25rem;
+  font-weight: 500;
   color: #fff;
 }
-div[sn=C017] > div > div > div > h6 > b {
+div[sn=C017] > section > article > em {
   position: relative;
   display: block;
-  margin: -0.25rem 1rem 0;
+  margin: 0 25%;
+  width: 50%;
   font-size: 0.875rem;
+  font-style: normal;
   color: #fff;
 }
 
