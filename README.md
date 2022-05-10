@@ -2,7 +2,7 @@
 
 - 名稱: Web Template 2
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
-- 授權: [MIT License](https://github.com/pardnchiu/web-sample-1/blob/main/LICENSE)
+- 授權: [MIT License](https://github.com/pardnchiu/web-sample-2/blob/main/LICENSE)
 
 ### 引用
 
