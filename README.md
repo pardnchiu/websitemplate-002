@@ -2,7 +2,7 @@
 
 - 名稱: Website Template 2
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
-- 授權: [MIT License](./blob/main/LICENSE)
+- 授權: [MIT License](./LICENSE)
 
 ### 引用
 
