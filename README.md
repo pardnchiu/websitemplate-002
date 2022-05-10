@@ -1,6 +1,6 @@
 # 網站模板 2
 
-- 名稱: Website Template 2
+- 名稱: [Website Template 2](https://pardnchiu.github.io/websitemplate-002/)
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
 - 授權: [MIT License](./LICENSE)
 
