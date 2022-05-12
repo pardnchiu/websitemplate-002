@@ -1,4 +1,4 @@
-# 網站模板
+# Website Template 網站模板
 
 - 名稱: [Websitemplate 2](https://pardnchiu.github.io/websitemplate-002/)
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
